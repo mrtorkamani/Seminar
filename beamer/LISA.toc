@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Gravitational waves}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Ground-based observatories}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{LISA}{8}{0}{1}
+\beamer@sectionintoc {2}{Gravitational waves}{10}{0}{2}
+\beamer@sectionintoc {3}{Gravitational wave's detector}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{LIGO}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Interferometer}{13}{0}{3}
+\beamer@subsectionintoc {3}{3}{Gravitational waves' detection}{14}{0}{3}
+\beamer@sectionintoc {4}{Strain Sensitivity}{15}{0}{4}
