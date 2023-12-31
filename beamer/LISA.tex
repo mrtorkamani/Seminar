@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{pgfpages}
 \usepackage{caption}
+\usepackage{amsmath}
 \usepackage{tensor}
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -16,7 +17,7 @@
 
 
 
-\title[Stochastic signal originating from CBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary
+\title[Stochastic signal originating from CGBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary
 populations as measured by LISA}
 \subtitle{Nikolaos Karnesis et al}
 \author{MohammadReza Torkamani}
@@ -222,19 +223,53 @@ GW sources in LISA band
 \end{columns}
 \end{frame}
 
-\begin{frame}
-
+\begin{frame}{LISA Isuues}
+\begin{itemize}
+\item LISA data are expeted to be signal dominated
+\item LISA sources are expected to be long-lived
+\item GW signals will be overlapping in time(frequency)
+\pause
+\item Some signals can be resolvable due to high signal to noise ratio
+\pause
+\item remaining signals will affect the sensitivity as extra noise (confusion noise)
+\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Gravitational waves}
-\begin{frame}{Gravitational waves}
-A
+\section{Methodology}
+\begin{frame}{Overview}
+\begin{itemize}
+\item Simulating around 30 milion CGBs from Radler LISA data challenge dataset
+\item Simulating the instumental noise using the LISA code simulatior
+\item For each $T_{obs}$ gererate the idealized dataset in the frequency domain
+\item Apply the method to find the final sensitivity
+\item Fit the data with theoretical curve
+\end{itemize}
 \end{frame}
 
-\begin{frame}
-A
+\begin{frame}{Methode}
+\begin{itemize}
+\item Assumpion: Bright sources with a signal-to-noise ratio larger than a given threshold are detected and charachterized without systematic bias or source cofusion.
+\end{itemize}
+\begin{block}{SNR}
+\begin{align*}
+\rho^2_{tot} &= \sum_k (h_k|h_k), \quad  \text{k:noise-orthogonal TDI variables} \\
+h_k|h_k &= 4 \int_{0}^{\infty} df \dfrac{|\tilde{h}_k(f)|^2}{\tilde{S}_n(f)}, \quad \tilde{S}_n(f):\text{one-sided PSD} \\
+\tilde{S}_n(f) &= \tilde{S}_{instr}(f) +\tilde{S}_{conf}(f)
+\end{align*}
+\end{block}
+\end{frame}
+
+\begin{frame}{Methode}
+\begin{enumerate}
+\item Simulating 30 milions CGBs
+\item Calculating the PSD of the signal and the instrumental noise
+\item Calculating the SNR of each source with respect to the instrumental noise ($\rho_i^{iso}$)
+\item Stimating the SNR of each source using either a running mean or median on the power spectrum of the data ($\rho_i$)
+\item If $\rho_i > \rho_0$ the source will be subtracted from the data
+\item iterate the process
+\end{enumerate}
 \end{frame}
 
 \section{Gravitational wave's detector}

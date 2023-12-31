@@ -25,44 +25,48 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\slideentry {1}{3}{2}{9/9}{LISA}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {3}{9}}
-\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\sectionentry {2}{Gravitational waves}{10}{Gravitational waves}{0}}
-\headcommand {\slideentry {2}{0}{1}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{0}{2}{11/11}{}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\sectionentry {3}{Gravitational wave's detector}{12}{Gravitational wave's detector}{0}}
-\headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{12}{LIGO}}
-\headcommand {\slideentry {3}{1}{1}{12/12}{LIGO}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{13}{Interferometer}}
-\headcommand {\slideentry {3}{2}{1}{13/13}{Interferometer}{0}}
+\headcommand {\slideentry {1}{3}{3}{10/12}{LISA}{0}}
+\headcommand {\beamer@framepages {10}{12}}
+\headcommand {\beamer@sectionpages {3}{12}}
+\headcommand {\beamer@subsectionpages {8}{12}}
+\headcommand {\sectionentry {2}{Methodology}{13}{Methodology}{0}}
+\headcommand {\slideentry {2}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{14}{Gravitational waves' detection}}
-\headcommand {\slideentry {3}{3}{1}{14/14}{Gravitational waves' detection}{0}}
+\headcommand {\slideentry {2}{0}{2}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@sectionpages {12}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\sectionentry {4}{Strain Sensitivity}{15}{Strain Sensitivity}{0}}
-\headcommand {\slideentry {4}{0}{1}{15/15}{}{0}}
+\headcommand {\slideentry {2}{0}{3}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {4}{0}{2}{16/16}{}{0}}
+\headcommand {\beamer@sectionpages {13}{15}}
+\headcommand {\beamer@subsectionpages {13}{15}}
+\headcommand {\sectionentry {3}{Gravitational wave's detector}{16}{Gravitational wave's detector}{0}}
+\headcommand {\beamer@subsectionpages {16}{15}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{16}{LIGO}}
+\headcommand {\slideentry {3}{1}{1}{16/16}{LIGO}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@sectionpages {15}{16}}
-\headcommand {\beamer@subsectionpages {15}{16}}
-\headcommand {\sectionentry {5}{Reference}{17}{Reference}{0}}
-\headcommand {\slideentry {5}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{17}{Interferometer}}
+\headcommand {\slideentry {3}{2}{1}{17/17}{Interferometer}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {5}{0}{2}{18/18}{}{0}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{18}{Gravitational waves' detection}}
+\headcommand {\slideentry {3}{3}{1}{18/18}{Gravitational waves' detection}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@partpages {1}{18}}
-\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\beamer@sectionpages {17}{18}}
-\headcommand {\beamer@documentpages {18}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\beamer@sectionpages {16}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\sectionentry {4}{Strain Sensitivity}{19}{Strain Sensitivity}{0}}
+\headcommand {\slideentry {4}{0}{1}{19/19}{}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {4}{0}{2}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@sectionpages {19}{20}}
+\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\sectionentry {5}{Reference}{21}{Reference}{0}}
+\headcommand {\slideentry {5}{0}{1}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {5}{0}{2}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {21}{22}}
+\headcommand {\beamer@sectionpages {21}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {20}}
