@@ -6,6 +6,7 @@
 \usepackage{pgfpages}
 \usepackage{caption}
 \usepackage{amsmath}
+\usepackage{mathrsfs}
 \usepackage{tensor}
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -19,7 +20,7 @@
 
 \title[Stochastic signal originating from CGBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary
 populations as measured by LISA}
-\subtitle{Nikolaos Karnesis et al}
+\subtitle{Nikolaos Karnesis, Stanislav Babak, Mauro Pieroni et al}
 \author{MohammadReza Torkamani}
 
 \begin{document}
@@ -47,6 +48,10 @@ populations as measured by LISA}
     \tensor{G}{_\mu_\nu} = \dfrac{8\pi G}{c^4} \tensor{T}{_\mu_\nu}  
     \end{equation*}
 	\end{block}
+	\begin{tiny}
+	$G_{\mu\nu}$: Einstein tensor $\quad$ $T_{\mu\nu}$: Energy-Momentum tensor\\
+	$G$: Gravitational constat $\quad$ $c$: speed of light
+	\end{tiny}
 	
 	
     \begin{equation*}
@@ -173,16 +178,15 @@ seismic noise in low frequency
 \end{columns}
 \end{frame}
 
-\begin{frame}{First detection}
+\begin{frame}{First detection (GW150914)}
 \begin{figure}
-\caption*{GW150914}
-\includegraphics[scale=.17]{fig/GW150914.png}
+\includegraphics[scale=.2]{fig/GW150914.png}
 \caption*{\credit{B. P. Abbott et al., 2016}}
 \end{figure}
 \end{frame}
 
 \subsection{LISA}
-\begin{frame}{Laiser Interferometer Space Antenna}
+\begin{frame}{Laiser Interferometer Space Antenna (LISA)}
 \begin{columns}
 
 \column[c]{0.5\textwidth}
@@ -201,26 +205,22 @@ seismic noise in low frequency
 \end{frame}
 
 \begin{frame}{LISA Band}
-\begin{columns}
-\column[c]{0.5\textwidth}
-\vspace{1cm}
-
 \begin{figure}
-\includegraphics[scale=.13]{fig/observedLISA.png}
+\includegraphics[scale=.2]{fig/observedLISA.png}
 \caption*{\credit{Karsten Danzmann et al., 2017}}
 \end{figure}
-\column[c]{0.5\textwidth}
-\vspace{1cm}
+\end{frame}
 
+\begin{frame}{LISA Band}
 GW sources in LISA band
 \begin{itemize}
 \item Supermassive black hole binaries (SMBHBs)
 \item Stellar-mass black hole binaries (SBBHs)
 \item Ultracompact galactic binaries (CGBs)
+\item Verification galactic binaries
 \item extreme mass ratio inspiral (EMRIs)
 \item stochastic GW background 
 \end{itemize}
-\end{columns}
 \end{frame}
 
 \begin{frame}{LISA Isuues}
@@ -268,49 +268,154 @@ h_k|h_k &= 4 \int_{0}^{\infty} df \dfrac{|\tilde{h}_k(f)|^2}{\tilde{S}_n(f)}, \q
 \item Calculating the SNR of each source with respect to the instrumental noise ($\rho_i^{iso}$)
 \item Stimating the SNR of each source using either a running mean or median on the power spectrum of the data ($\rho_i$)
 \item If $\rho_i > \rho_0$ the source will be subtracted from the data
-\item iterate the process
+\item Iterate the process until no sources exceed the threshold ($\rho_0$)
 \end{enumerate}
 \end{frame}
 
-\section{Gravitational wave's detector}
-\subsection{LIGO}
-\begin{frame}
-A
-\end{frame}
-
-\subsection{Interferometer}
-\begin{frame}
-A
-\end{frame}
-
-\subsection{Gravitational waves' detection}
-\begin{frame}
-A
-\end{frame}
-
-%\begin{frame}
-%A
-%\end{frame}
-
-\section{Strain Sensitivity}
-\begin{frame}{GW151226}
-A
+\section{Result}
+\subsection{CGBs}
+\begin{frame}{Compact Galactic Binaries}
+\begin{figure}
+\includegraphics[scale=.22]{fig/MainPSD.png}
+\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\end{figure}
 \end{frame}
 
 
-\begin{frame}{Our Group}
-A
+\begin{frame}{Compact Galactic Binaries}
+Analytical model for the estimated confusion foreground:
+\begin{block}{Confusion foreground model}
+\begin{equation*}
+S_{gal}  = \dfrac{A}{2} f^{-7/3} e^{-(f/f_1)^\alpha} (1+\tanh((f_{knee}-f)/f_2))
+\end{equation*}
+\end{block}
+$A$: Amplitude $\qquad$ $f_1, f_2$ and $f_{knee}$: Scaling frequencies \\
+$f$: Frequency $\qquad$ $\alpha$: Smoothness parameter 
+
+Approximation for $f_1$ and $f_{knee}$:
+\begin{align*}
+\log_{10}(f_1) = a_1 \log_{10}(T_{obs}) +b_1\\
+\log_{10}(f_{knee}) = a_k \log_{10}(T_{obs}) + b_k 
+\end{align*}
+$a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{frame}
 
-\section*{Reference}
-\begin{frame}{Reference}
-A
+\begin{frame}{Compact Galactic Binaries}
+\begin{columns}
+\column[c]{.55\textwidth}
+\begin{figure}
+\includegraphics[width = \textwidth]{fig/FittingPSD.png}
+\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\end{figure}
+\column[c]{.45\textwidth}
+\begin{figure}
+\includegraphics[width = \textwidth]{fig/Table2.png}
+\end{figure}
+\begin{figure}
+\includegraphics[width = \textwidth]{fig/Table1.png}
+\end{figure}
+
+\end{columns}
+\end{frame}
+
+\subsection{SBBHs}
+\begin{frame}{Stellar-mass binaries black hole}
+\begin{itemize}
+\item LISA is sensitive to the early inspiral stage of orbit evolution of SBBHs
+\item They appear in the high-frequency tail of LISA band until ($3\mathrm{mHz}$)
+\item There is a very low chance for the transition of SBBHs from LISA band to LIGO band during the LISA observation time
+\item The population of SBBHs observed by LISA depends on the merger rate of SBBHs ($\mathcal{R}$)
+\item $\mathcal{R}$ can be stimated from data of ground-base observatories
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Stellar-mass binaries black hole}
+\begin{itemize}
+\item Observation time of $T_{obs} \sim 2.7$ yr
+\item Simulating the dataset using PhenomD waveform model (S. Khan et al, 2016)
+\item Doing the same process as CGBs
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Stellar-mass binaries black hole}
+\begin{figure}
+\includegraphics[width=.8\textwidth]{fig/SMBHs.png}
+\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\end{figure}
+\end{frame}
+
+
+\subsection{Combining the populations}
+\begin{frame}{Combining the populations}
+\begin{itemize}
+\item Doing the same process again!
+\item Instead of iterating over one type, iterate over all types
+\item Comparing SNR of each type with itself
+\item Final result is just superposition of the foreground signals from all given types of sources
+\begin{block}{Superposition}
+\begin{equation*}
+\tilde{S}_n(f) = \tilde{S}_{instr}(f) +\sum_t \tilde{S}_{conf,t}(f)
+\end{equation*}
+\end{block}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Combining the populations}
+\begin{figure}
+\includegraphics[width=.9\textwidth]{fig/combin.png}
+\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\end{figure}
+\end{frame}
+
+
+\section{Conclusion}
+\begin{frame}{Conclusion}
+\begin{itemize}
+\item SBBHs is not strong enough to affect the final result
+\item Due to the presence of CGBs the most sensitive firequency of LISA is moved to the right
+\end{itemize}
 \end{frame}
 
 \begin{frame}
 \begin{center}
 \Huge Thank you!
 \end{center}
+\end{frame}
+
+\begin{frame}{PSD}
+\begin{figure}
+\includegraphics[scale=.2]{fig/PSD-TOT.png}
+\caption*{\credit{C J Moore et al, 2014}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Characteristic strain}
+\begin{figure}
+\includegraphics[scale=.2]{fig/Char-TOT.png}
+\caption*{\credit{C J Moore et al, 2014}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Dimensionless energy density}
+\begin{figure}
+\includegraphics[scale=.2]{fig/Energy-TOT.png}
+\caption*{\credit{C J Moore et al, 2014}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{TDI}
+\begin{columns}
+\column[c]{.5\textwidth}
+\begin{figure}
+\includegraphics[scale=.15]{fig/LISAschem.png}
+\caption*{\credit{Massimo Tinto et al, 2020}}
+\end{figure}
+\column[c]{.5\textwidth}
+\begin{figure}
+\includegraphics[scale=.15]{fig/Distance.png}
+\caption*{\credit{Olaf Hartwig, 2021}}
+\end{figure}
+\end{columns}
 \end{frame}
 
 \end{document}
