@@ -18,8 +18,7 @@
 
 
 
-\title[Stochastic signal originating from CGBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary
-populations as measured by LISA}
+\title[Stochastic signal originating from CBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary populations as measured by LISA}
 \subtitle{Nikolaos Karnesis, Stanislav Babak, Mauro Pieroni et al}
 \author{MohammadReza Torkamani}
 
@@ -90,6 +89,8 @@ populations as measured by LISA}
 	Transverse traceless gauge: $\tensor{\bar{h}}{_\mu_\nu} U^\mu = 0$ and $\tensor{\bar{h}}{_\mu^\mu} = 0$
 	
 	\column[c]{0.5\textwidth}
+	
+	\pause
 	
 	\begin{align*}
 	16 \xrightarrow{symetry} 10 \xrightarrow[gauge]{Lorenz} 6 \xrightarrow[gauge]{TT} 2
@@ -215,11 +216,11 @@ seismic noise in low frequency
 GW sources in LISA band
 \begin{itemize}
 \item Supermassive black hole binaries (SMBHBs)
-\item Stellar-mass black hole binaries (SBBHs)
+\item Stellar-mass binary black holes (SBBHs)
 \item Ultracompact galactic binaries (CGBs)
 \item Verification galactic binaries
-\item extreme mass ratio inspiral (EMRIs)
-\item stochastic GW background 
+\item Extreme mass ratio inspiral (EMRIs)
+\item Stochastic GWs background 
 \end{itemize}
 \end{frame}
 
@@ -248,7 +249,7 @@ GW sources in LISA band
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Methode}
+\begin{frame}{Method}
 \begin{itemize}
 \item Assumpion: Bright sources with a signal-to-noise ratio larger than a given threshold are detected and charachterized without systematic bias or source cofusion.
 \end{itemize}
@@ -261,7 +262,7 @@ h_k|h_k &= 4 \int_{0}^{\infty} df \dfrac{|\tilde{h}_k(f)|^2}{\tilde{S}_n(f)}, \q
 \end{block}
 \end{frame}
 
-\begin{frame}{Methode}
+\begin{frame}{Method}
 \begin{enumerate}
 \item Simulating 30 milions CGBs
 \item Calculating the PSD of the signal and the instrumental noise
@@ -319,25 +320,25 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{frame}
 
 \subsection{SBBHs}
-\begin{frame}{Stellar-mass binaries black hole}
+\begin{frame}{Stellar-mass binary black holes}
 \begin{itemize}
 \item LISA is sensitive to the early inspiral stage of orbit evolution of SBBHs
-\item They appear in the high-frequency tail of LISA band until ($3\mathrm{mHz}$)
+\item They appear in the high-frequency tail of LISA band (until $3\mathrm{mHz}$)
 \item There is a very low chance for the transition of SBBHs from LISA band to LIGO band during the LISA observation time
 \item The population of SBBHs observed by LISA depends on the merger rate of SBBHs ($\mathcal{R}$)
 \item $\mathcal{R}$ can be stimated from data of ground-base observatories
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Stellar-mass binaries black hole}
+\begin{frame}{Stellar-mass binary black holes}
 \begin{itemize}
-\item Observation time of $T_{obs} \sim 2.7$ yr
 \item Simulating the dataset using PhenomD waveform model (S. Khan et al, 2016)
+\item Observation time of $T_{obs} \sim 2.7$ yr
 \item Doing the same process as CGBs
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Stellar-mass binaries black hole}
+\begin{frame}{Stellar-mass binary black holes}
 \begin{figure}
 \includegraphics[width=.8\textwidth]{fig/SMBHs.png}
 \caption*{\credit{Nikolaos Karnesis et al, 2021}}
@@ -371,8 +372,11 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \section{Conclusion}
 \begin{frame}{Conclusion}
 \begin{itemize}
-\item SBBHs is not strong enough to affect the final result
-\item Due to the presence of CGBs the most sensitive firequency of LISA is moved to the right
+\item Simulation of CGBs adn SBBHs population
+\item using an iterative process to estimate forground noise
+\item Fit a theoretical model to confusion noise of CGBs
+\item SBBHs signal is not strong enough to affect the final result
+\item Due to the presence of CGBs the most sensitive firequency of LISA is going to increase
 \end{itemize}
 \end{frame}
 

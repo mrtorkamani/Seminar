@@ -9,77 +9,77 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Gravitational waves}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Gravitational waves}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/4}{Gravitational waves}{0}}
-\headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Ground-based observatories}}
-\headcommand {\slideentry {1}{2}{1}{5/5}{Ground-based observatories}{0}}
-\headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{2}{2}{6/6}{Ground-based observatories}{0}}
+\headcommand {\slideentry {1}{1}{2}{4/5}{Gravitational waves}{0}}
+\headcommand {\beamer@framepages {4}{5}}
+\headcommand {\beamer@subsectionpages {3}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Ground-based observatories}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Ground-based observatories}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{2}{3}{7/7}{Ground-based observatories}{0}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Ground-based observatories}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@subsectionpages {5}{7}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{8}{LISA}}
-\headcommand {\slideentry {1}{3}{1}{8/8}{LISA}{0}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Ground-based observatories}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{3}{2}{9/9}{LISA}{0}}
+\headcommand {\beamer@subsectionpages {6}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{9}{LISA}}
+\headcommand {\slideentry {1}{3}{1}{9/9}{LISA}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{3}{3}{10/10}{LISA}{0}}
+\headcommand {\slideentry {1}{3}{2}{10/10}{LISA}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{3}{4}{11/13}{LISA}{0}}
-\headcommand {\beamer@framepages {11}{13}}
-\headcommand {\beamer@sectionpages {3}{13}}
-\headcommand {\beamer@subsectionpages {8}{13}}
-\headcommand {\sectionentry {2}{Methodology}{14}{Methodology}{0}}
-\headcommand {\slideentry {2}{0}{1}{14/14}{}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{0}{2}{15/15}{}{0}}
+\headcommand {\slideentry {1}{3}{3}{11/11}{LISA}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{3}{4}{12/14}{LISA}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\beamer@sectionpages {3}{14}}
+\headcommand {\beamer@subsectionpages {9}{14}}
+\headcommand {\sectionentry {2}{Methodology}{15}{Methodology}{0}}
+\headcommand {\slideentry {2}{0}{1}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {2}{0}{3}{16/16}{}{0}}
+\headcommand {\slideentry {2}{0}{2}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@sectionpages {14}{16}}
-\headcommand {\beamer@subsectionpages {14}{16}}
-\headcommand {\sectionentry {3}{Result}{17}{Result}{0}}
-\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{17}{CGBs}}
-\headcommand {\slideentry {3}{1}{1}{17/17}{CGBs}{0}}
+\headcommand {\slideentry {2}{0}{3}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{1}{2}{18/18}{CGBs}{0}}
+\headcommand {\beamer@sectionpages {15}{17}}
+\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\sectionentry {3}{Result}{18}{Result}{0}}
+\headcommand {\beamer@subsectionpages {18}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{18}{CGBs}}
+\headcommand {\slideentry {3}{1}{1}{18/18}{CGBs}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {3}{1}{3}{19/19}{CGBs}{0}}
+\headcommand {\slideentry {3}{1}{2}{19/19}{CGBs}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionpages {17}{19}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{20}{SBBHs}}
-\headcommand {\slideentry {3}{2}{1}{20/20}{SBBHs}{0}}
+\headcommand {\slideentry {3}{1}{3}{20/20}{CGBs}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {3}{2}{2}{21/21}{SBBHs}{0}}
+\headcommand {\beamer@subsectionpages {18}{20}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{21}{SBBHs}}
+\headcommand {\slideentry {3}{2}{1}{21/21}{SBBHs}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{2}{3}{22/22}{SBBHs}{0}}
+\headcommand {\slideentry {3}{2}{2}{22/22}{SBBHs}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@subsectionpages {20}{22}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{23}{Combining the populations}}
-\headcommand {\slideentry {3}{3}{1}{23/23}{Combining the populations}{0}}
+\headcommand {\slideentry {3}{2}{3}{23/23}{SBBHs}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {3}{3}{2}{24/24}{Combining the populations}{0}}
+\headcommand {\beamer@subsectionpages {21}{23}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{24}{Combining the populations}}
+\headcommand {\slideentry {3}{3}{1}{24/24}{Combining the populations}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {17}{24}}
-\headcommand {\beamer@subsectionpages {23}{24}}
-\headcommand {\sectionentry {4}{Conclusion}{25}{Conclusion}{0}}
-\headcommand {\slideentry {4}{0}{1}{25/25}{}{0}}
+\headcommand {\slideentry {3}{3}{2}{25/25}{Combining the populations}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {4}{0}{2}{26/26}{}{0}}
+\headcommand {\beamer@sectionpages {18}{25}}
+\headcommand {\beamer@subsectionpages {24}{25}}
+\headcommand {\sectionentry {4}{Conclusion}{26}{Conclusion}{0}}
+\headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {4}{0}{3}{27/27}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{27/27}{}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {4}{0}{4}{28/28}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{28/28}{}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {4}{0}{5}{29/29}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {4}{0}{6}{30/30}{}{0}}
+\headcommand {\slideentry {4}{0}{5}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
-\headcommand {\beamer@subsectionpages {25}{30}}
-\headcommand {\beamer@sectionpages {25}{30}}
-\headcommand {\beamer@documentpages {30}}
+\headcommand {\slideentry {4}{0}{6}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@partpages {1}{31}}
+\headcommand {\beamer@subsectionpages {26}{31}}
+\headcommand {\beamer@sectionpages {26}{31}}
+\headcommand {\beamer@documentpages {31}}
 \headcommand {\gdef \inserttotalframenumber {28}}
