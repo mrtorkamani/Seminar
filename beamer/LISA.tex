@@ -48,16 +48,13 @@
     \end{equation*}
 	\end{block}
 	\begin{tiny}
-	$G_{\mu\nu}$: Einstein tensor $\quad$ $T_{\mu\nu}$: Energy-Momentum tensor\\
-	$G$: Gravitational constat $\quad$ $c$: speed of light
+	$G_{\mu\nu}$: Einstein tensor $\quad$ $G$: Gravitational constat \\
+	$T_{\mu\nu}$: Energy-momentum tensor $\quad$ $c$: Speed of light
 	\end{tiny}
 	
 	
     \begin{equation*}
     \tensor{g}{_\mu_\nu} = \tensor{\eta}{_\mu_\nu} + \tensor{h}{_\mu_\nu} \qquad |h|<<1 
-    \end{equation*}
-    \begin{equation*}
-    \tensor{\bar{h}}{_\mu_\nu} = \tensor{h}{_\mu_\nu} -\dfrac{1}{2} \tensor{\eta}{_\mu_\nu} h  
     \end{equation*}
     
     
@@ -72,8 +69,12 @@
 
 \begin{frame}{Gravitational waves}
 
+	\begin{align*}
+	16 \xrightarrow{symetry} 10 \xrightarrow[gauge]{Lorenz} 6 \xrightarrow[gauge]{TT} 2
+	\end{align*}		
+		
 	\begin{columns}
-	\hspace{.5cm}
+	\hspace{.5cm}	
 	\column[c]{0.5\textwidth}
 	Lorenz gauge: $\partial_\mu \tensor{\bar{h}}{^\nu^\mu} = 0$
 	\begin{block}{Wave equation}
@@ -82,19 +83,11 @@
 	\end{equation*}		
 	\end{block}
 	
-	\begin{equation*}
-	\tensor{\bar{h}}{_\mu_\nu} = \tensor{A}{_\mu_\nu} \exp{(ik_\alpha x^\alpha)}
-	\end{equation*}
+
 	
 	Transverse traceless gauge: $\tensor{\bar{h}}{_\mu_\nu} U^\mu = 0$ and $\tensor{\bar{h}}{_\mu^\mu} = 0$
 	
 	\column[c]{0.5\textwidth}
-	
-	\pause
-	
-	\begin{align*}
-	16 \xrightarrow{symetry} 10 \xrightarrow[gauge]{Lorenz} 6 \xrightarrow[gauge]{TT} 2
-	\end{align*}		
 	\begin{equation*}
 	\tensor{h}{_\mu_\nu} = \begin{bmatrix}
 	0&0&0&0\\
@@ -137,23 +130,29 @@
 \end{frame}
 
 \subsection{Ground-based observatories}
-\begin{frame}{LIGO Structure}
-Giant Michelson interferometer
+\begin{frame}{Ground-base observatiories}
+Giant Michelson interferometer in Hanford
 \begin{columns}
+\hspace{.5cm}	
 \column[c]{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=.6]{fig/HiResHanford_5.jpg}
+\includegraphics[width=\textwidth]{fig/HiResHanford_5.jpg}
 \caption*{\credit{Caltech/MIT/LIGO Lab}}
 \end{figure}
 \column[c]{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=.14]{fig/IFO_SCHEME.png}
-\caption*{\credit{D. V. Martynov et all, 2018}}
+\includegraphics[width=\textwidth]{fig/IFO_SCHEME.png}
+\caption*{\credit{T. Pyle/LIGO}}
 \end{figure}
 \end{columns}
 \begin{equation*}
 S(t) = h(t) + n(t)
 \end{equation*}
+\begin{center}
+ \begin{tiny}
+	$h(t)$: Probable gravitational waves signal $\qquad$ $n(t)$: Noise signal
+	\end{tiny}
+\end{center}
 \end{frame}
 
 \begin{frame}{LIGO Noise budget}
@@ -173,7 +172,7 @@ Dominant noise:
 Quantum shot in high frequency
 
 \item  
-seismic noise in low frequency
+Seismic noise in low frequency
 \end{itemize}
 
 \end{columns}
@@ -186,8 +185,8 @@ seismic noise in low frequency
 \end{figure}
 \end{frame}
 
-\subsection{LISA}
-\begin{frame}{Laiser Interferometer Space Antenna (LISA)}
+\subsection{Laser interferometer space antenna}
+\begin{frame}{Laser Interferometer Space Antenna (LISA)}
 \begin{columns}
 
 \column[c]{0.5\textwidth}
@@ -201,6 +200,7 @@ seismic noise in low frequency
 \includegraphics[scale=.12]{fig/LISAsch.png}
 \caption*{\credit{Jean-Baptiste Bayle et al., 2021}}
 \end{figure}
+Using time delay interferometery to reduce laser frequency noise.
 
 \end{columns}
 \end{frame}
@@ -213,15 +213,24 @@ seismic noise in low frequency
 \end{frame}
 
 \begin{frame}{LISA Band}
+\begin{columns}
+\hspace{.5cm}
+\column[c]{.55\textwidth}
 GW sources in LISA band
 \begin{itemize}
-\item Supermassive black hole binaries (SMBHBs)
+\item Supermassive binary black holes (SMBHBs)
 \item Stellar-mass binary black holes (SBBHs)
 \item Ultracompact galactic binaries (CGBs)
 \item Verification galactic binaries
 \item Extreme mass ratio inspiral (EMRIs)
 \item Stochastic GWs background 
 \end{itemize}
+\column[c]{.45\textwidth}
+\begin{figure}
+\includegraphics[width = \textwidth]{fig/observedLISA.png}
+\caption*{\credit{Karsten Danzmann et al., 2017}}
+\end{figure}
+\end{columns}
 \end{frame}
 
 \begin{frame}{LISA Isuues}
@@ -238,7 +247,7 @@ GW sources in LISA band
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Methodology}
+\section{Simulation method}
 \begin{frame}{Overview}
 \begin{itemize}
 \item Simulating around 30 milion CGBs from Radler LISA data challenge dataset
@@ -273,8 +282,8 @@ h_k|h_k &= 4 \int_{0}^{\infty} df \dfrac{|\tilde{h}_k(f)|^2}{\tilde{S}_n(f)}, \q
 \end{enumerate}
 \end{frame}
 
-\section{Result}
-\subsection{CGBs}
+\section{Result of noise corrected Power Spectrum Density (PSD)}
+\subsection{Compact Galactic Binaries (CGBs)}
 \begin{frame}{Compact Galactic Binaries}
 \begin{figure}
 \includegraphics[scale=.22]{fig/MainPSD.png}
@@ -303,12 +312,12 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 
 \begin{frame}{Compact Galactic Binaries}
 \begin{columns}
-\column[c]{.55\textwidth}
+\column[c]{.50\textwidth}
 \begin{figure}
 \includegraphics[width = \textwidth]{fig/FittingPSD.png}
 \caption*{\credit{Nikolaos Karnesis et al, 2021}}
 \end{figure}
-\column[c]{.45\textwidth}
+\column[c]{.50\textwidth}
 \begin{figure}
 \includegraphics[width = \textwidth]{fig/Table2.png}
 \end{figure}
@@ -319,7 +328,7 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{columns}
 \end{frame}
 
-\subsection{SBBHs}
+\subsection{Stellar-mass Binary Black Holes (SBBHs)}
 \begin{frame}{Stellar-mass binary black holes}
 \begin{itemize}
 \item LISA is sensitive to the early inspiral stage of orbit evolution of SBBHs
@@ -372,7 +381,7 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \section{Conclusion}
 \begin{frame}{Conclusion}
 \begin{itemize}
-\item Simulation of CGBs adn SBBHs population
+\item Simulation of CGBs and SBBHs population
 \item using an iterative process to estimate forground noise
 \item Fit a theoretical model to confusion noise of CGBs
 \item SBBHs signal is not strong enough to affect the final result
@@ -407,7 +416,7 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{figure}
 \end{frame}
 
-\begin{frame}{TDI}
+\begin{frame}{Time Delay Interferometery (TDI)}
 \begin{columns}
 \column[c]{.5\textwidth}
 \begin{figure}
