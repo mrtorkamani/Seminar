@@ -1,10 +1,10 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Gravitational waves}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Ground-based observatories}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Laser interferometer space antenna}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Laser Interferometer Space Antenna (LISA)}{8}{0}{1}
 \beamer@sectionintoc {2}{Simulation method}{14}{0}{2}
-\beamer@sectionintoc {3}{Result of noise corrected Power Spectrum Density (PSD)}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Compact Galactic Binaries (CGBs)}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Stellar-mass Binary Black Holes (SBBHs)}{20}{0}{3}
-\beamer@subsectionintoc {3}{3}{Combining the populations}{23}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{25}{0}{4}
+\beamer@sectionintoc {3}{Result of noise corrected Power Spectrum Density (PSD)}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Compact Galactic Binaries (CGBs)}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Stellar-mass Binary Black Holes (SBBHs)}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Combining the populations}{21}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{23}{0}{4}

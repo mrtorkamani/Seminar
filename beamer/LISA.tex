@@ -1,6 +1,6 @@
 \documentclass[pdf]{beamer}
 
-\usetheme{Median}
+\usetheme{MRT}
 
 \usepackage{graphicx}
 \usepackage{pgfpages}
@@ -18,8 +18,8 @@
 
 
 
-\title[Stochastic signal originating from CBs mesured by LISA]{Characterization of the stochastic signal originating from compact binary populations as measured by LISA}
-\subtitle{Nikolaos Karnesis, Stanislav Babak, Mauro Pieroni et al}
+\title[Stochastic signal originating from CBs measured by LISA]{Characterization of the stochastic signal originating from compact binary populations as measured by LISA}
+\subtitle{Nikolaos Karnesis, Stanislav Babak, Mauro Pieroni et al.}
 \author{MohammadReza Torkamani}
 
 \begin{document}
@@ -39,7 +39,7 @@
  \begin{columns}
  	\hspace{.5cm}
     \column[c]{0.5\textwidth}
-    Ripples in space-time caused by accelerated masses.
+    Ripples in space-time caused by accelerated masses
         
 	
 	\begin{block}{Einstein field equations}
@@ -48,7 +48,7 @@
     \end{equation*}
 	\end{block}
 	\begin{tiny}
-	$G_{\mu\nu}$: Einstein tensor $\quad$ $G$: Gravitational constat \\
+	$G_{\mu\nu}$: Einstein tensor $\quad$ $G$: Gravitational constant \\
 	$T_{\mu\nu}$: Energy-momentum tensor $\quad$ $c$: Speed of light
 	\end{tiny}
 	
@@ -56,7 +56,10 @@
     \begin{equation*}
     \tensor{g}{_\mu_\nu} = \tensor{\eta}{_\mu_\nu} + \tensor{h}{_\mu_\nu} \qquad |h|<<1 
     \end{equation*}
-    
+    \begin{tiny}
+	$g_{\mu\nu}$: Metric $\quad$ $\eta_{\mu\nu}$: Minkowski metric \\
+	$h_{\mu\nu}$: Small perturbation 
+	\end{tiny}
     
     \column{0.5\textwidth}
     \begin{figure}
@@ -70,7 +73,7 @@
 \begin{frame}{Gravitational waves}
 
 	\begin{align*}
-	16 \xrightarrow{symetry} 10 \xrightarrow[gauge]{Lorenz} 6 \xrightarrow[gauge]{TT} 2
+	\text{Degrees of freedom}: \qquad 16 \xrightarrow{symmetry} 10 \xrightarrow[gauge]{Lorenz} 6 \xrightarrow[gauge]{TT} 2
 	\end{align*}		
 		
 	\begin{columns}
@@ -130,7 +133,7 @@
 \end{frame}
 
 \subsection{Ground-based observatories}
-\begin{frame}{Ground-base observatiories}
+\begin{frame}{Ground-based observatories}
 Giant Michelson interferometer in Hanford
 \begin{columns}
 \hspace{.5cm}	
@@ -150,18 +153,18 @@ S(t) = h(t) + n(t)
 \end{equation*}
 \begin{center}
  \begin{tiny}
-	$h(t)$: Probable gravitational waves signal $\qquad$ $n(t)$: Noise signal
+	$S(t)$: Total signal $\qquad$ $h(t)$: Gravitational waves signal $\qquad$ $n(t)$: Noise signal
 	\end{tiny}
 \end{center}
 \end{frame}
 
-\begin{frame}{LIGO Noise budget}
+\begin{frame}{LIGO noise budget}
 \begin{columns}
 \column[c]{.65\textwidth}
 \begin{figure}
 \caption*{Hanford detector}
 \includegraphics[scale=.17]{fig/noise-budget-ligo.png}
-\caption*{\credit{Craig Cahillane et all, 2022}}
+\caption*{\credit{Craig Cahillane et al., 2022}}
 \end{figure}
 \column[c]{.35\textwidth}
 
@@ -178,14 +181,14 @@ Seismic noise in low frequency
 \end{columns}
 \end{frame}
 
-\begin{frame}{First detection (GW150914)}
+\begin{frame}{First detection of gravitaional wave (GW150914)}
 \begin{figure}
 \includegraphics[scale=.2]{fig/GW150914.png}
 \caption*{\credit{B. P. Abbott et al., 2016}}
 \end{figure}
 \end{frame}
 
-\subsection{Laser interferometer space antenna}
+\subsection{Laser Interferometer Space Antenna (LISA)}
 \begin{frame}{Laser Interferometer Space Antenna (LISA)}
 \begin{columns}
 
@@ -200,7 +203,7 @@ Seismic noise in low frequency
 \includegraphics[scale=.12]{fig/LISAsch.png}
 \caption*{\credit{Jean-Baptiste Bayle et al., 2021}}
 \end{figure}
-Using time delay interferometery to reduce laser frequency noise.
+Using time delay interferometry to reduce laser frequency noise.
 
 \end{columns}
 \end{frame}
@@ -219,8 +222,8 @@ Using time delay interferometery to reduce laser frequency noise.
 GW sources in LISA band
 \begin{itemize}
 \item Supermassive binary black holes (SMBHBs)
-\item Stellar-mass binary black holes (SBBHs)
-\item Ultracompact galactic binaries (CGBs)
+\item \textcolor{red}{Stellar-mass binary black holes (SBBHs)}
+\item \textcolor{red}{Ultracompact galactic binaries (CGBs)}
 \item Verification galactic binaries
 \item Extreme mass ratio inspiral (EMRIs)
 \item Stochastic GWs background 
@@ -233,35 +236,35 @@ GW sources in LISA band
 \end{columns}
 \end{frame}
 
-\begin{frame}{LISA Isuues}
+\begin{frame}{LISA}
 \begin{itemize}
-\item LISA data are expeted to be signal dominated
-\item LISA sources are expected to be long-lived
-\item GW signals will be overlapping in time(frequency)
+\item LISA data are expected to be signal dominated.
+\item LISA sources are expected to be long-lived.
+\item[$\blacktriangleright$] GW signals will be overlapping in time (frequency).
 \pause
-\item Some signals can be resolvable due to high signal to noise ratio
+\item Some signals can be resolvable due to a high signal-to-noise ratio.
 \pause
-\item remaining signals will affect the sensitivity as extra noise (confusion noise)
+\item Remaining signals will affect the sensitivity as an extra noise (confusion noise).
 \end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Simulation method}
-\begin{frame}{Overview}
-\begin{itemize}
-\item Simulating around 30 milion CGBs from Radler LISA data challenge dataset
-\item Simulating the instumental noise using the LISA code simulatior
-\item For each $T_{obs}$ gererate the idealized dataset in the frequency domain
-\item Apply the method to find the final sensitivity
-\item Fit the data with theoretical curve
-\end{itemize}
-\end{frame}
+
+%\begin{frame}{Overview}
+%\begin{itemize}
+%\item Simulating around 30 milion CGBs from Radler LISA data challenge dataset
+%\item Simulating the instumental noise using the LISA code simulatior
+%\item For each $T_{obs}$ gererate the idealized dataset in the frequency domain
+%\item Apply the method to find the final sensitivity
+%\item Fit the data with theoretical curve
+%\end{itemize}
+%\end{frame}
 
 \begin{frame}{Method}
-\begin{itemize}
-\item Assumpion: Bright sources with a signal-to-noise ratio larger than a given threshold are detected and charachterized without systematic bias or source cofusion.
-\end{itemize}
+Assumption: Bright sources with a signal-to-noise ratio larger than a given threshold are detected and characterized without systematic bias or source confusion.
+
 \begin{block}{SNR}
 \begin{align*}
 \rho^2_{tot} &= \sum_k (h_k|h_k), \quad  \text{k:noise-orthogonal TDI variables} \\
@@ -273,26 +276,28 @@ h_k|h_k &= 4 \int_{0}^{\infty} df \dfrac{|\tilde{h}_k(f)|^2}{\tilde{S}_n(f)}, \q
 
 \begin{frame}{Method}
 \begin{enumerate}
-\item Simulating 30 milions CGBs
-\item Calculating the PSD of the signal and the instrumental noise
-\item Calculating the SNR of each source with respect to the instrumental noise ($\rho_i^{iso}$)
-\item Stimating the SNR of each source using either a running mean or median on the power spectrum of the data ($\rho_i$)
-\item If $\rho_i > \rho_0$ the source will be subtracted from the data
-\item Iterate the process until no sources exceed the threshold ($\rho_0$)
+\item Simulation of the objects*.
+\item Calculating the power spectrum density of the signal and the instrumental noise.
+\item Estimating the signal-to-noise ratio of each source w.r.t the power spectrum density of the data ($\rho_i$).
+\item If $\rho_i > \rho_0$ the source will be subtracted from the data.
+\item Iterate the process until no sources exceed the threshold ($\rho_0$).
 \end{enumerate}
+\vspace{1cm}
+\hspace{.5cm}
+*Objects: 1-CGBs $\qquad$ 2-SBBHs
 \end{frame}
 
 \section{Result of noise corrected Power Spectrum Density (PSD)}
 \subsection{Compact Galactic Binaries (CGBs)}
-\begin{frame}{Compact Galactic Binaries}
+\begin{frame}{1-Compact Galactic Binaries}
 \begin{figure}
 \includegraphics[scale=.22]{fig/MainPSD.png}
-\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\caption*{\credit{Nikolaos Karnesis et al., 2021}}
 \end{figure}
 \end{frame}
 
 
-\begin{frame}{Compact Galactic Binaries}
+\begin{frame}{1-Compact Galactic Binaries}
 Analytical model for the estimated confusion foreground:
 \begin{block}{Confusion foreground model}
 \begin{equation*}
@@ -300,54 +305,58 @@ S_{gal}  = \dfrac{A}{2} f^{-7/3} e^{-(f/f_1)^\alpha} (1+\tanh((f_{knee}-f)/f_2))
 \end{equation*}
 \end{block}
 $A$: Amplitude $\qquad$ $f_1, f_2$ and $f_{knee}$: Scaling frequencies \\
-$f$: Frequency $\qquad$ $\alpha$: Smoothness parameter 
-
-Approximation for $f_1$ and $f_{knee}$:
-\begin{align*}
-\log_{10}(f_1) = a_1 \log_{10}(T_{obs}) +b_1\\
-\log_{10}(f_{knee}) = a_k \log_{10}(T_{obs}) + b_k 
-\end{align*}
-$a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
+$f$: Frequency $\qquad$ $\alpha$: Smoothness parameter \\
+\vspace{.5cm}
+\hspace{.5cm}
+\textcolor{red}{$f_1$ and $f_{knee}$ depend on observation time $T_{obs}$}
+%Approximation for $f_1$ and $f_{knee}$:
+%\begin{align*}
+%\log_{10}(f_1) = a_1 \log_{10}(T_{obs}) +b_1\\
+%\log_{10}(f_{knee}) = a_k \log_{10}(T_{obs}) + b_k 
+%\end{align*}
+%$a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{frame}
 
-\begin{frame}{Compact Galactic Binaries}
+\begin{frame}{1-Compact Galactic Binaries}
 \begin{columns}
 \column[c]{.50\textwidth}
 \begin{figure}
 \includegraphics[width = \textwidth]{fig/FittingPSD.png}
-\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\caption*{\credit{Nikolaos Karnesis et al., 2021}}
 \end{figure}
 \column[c]{.50\textwidth}
-\begin{figure}
-\includegraphics[width = \textwidth]{fig/Table2.png}
-\end{figure}
+%\begin{figure}
+%\includegraphics[width = \textwidth]{fig/Table2.png}
+%\end{figure}
 \begin{figure}
 \includegraphics[width = \textwidth]{fig/Table1.png}
+\caption*{\credit{Nikolaos Karnesis et al., 2021}}
 \end{figure}
 
 \end{columns}
 \end{frame}
 
 \subsection{Stellar-mass Binary Black Holes (SBBHs)}
-\begin{frame}{Stellar-mass binary black holes}
+\begin{frame}{2-Stellar-mass binary black holes}
 \begin{itemize}
-\item LISA is sensitive to the early inspiral stage of orbit evolution of SBBHs
-\item They appear in the high-frequency tail of LISA band (until $3\mathrm{mHz}$)
-\item There is a very low chance for the transition of SBBHs from LISA band to LIGO band during the LISA observation time
-\item The population of SBBHs observed by LISA depends on the merger rate of SBBHs ($\mathcal{R}$)
-\item $\mathcal{R}$ can be stimated from data of ground-base observatories
+\item For CGBs they used a cataloge for estimating their population and simulating their GWs signal. 
+\item The population of SBBHs observed by LISA depends on the merger rate of SBBHs ($\mathcal{R}$).
+\item[$\blacktriangleright$] $\mathcal{R}$ can be estimated from data of ground-based observatories.
+\item LISA is sensitive to the early inspiral stage of orbit evolution of SBBHs.
+\item[$\blacktriangleright$] They appear in the high-frequency reigon of LISA band.
+\item There is a very low chance for the transition of SBBHs from LISA band to LIGO band during the LISA observation time.
 \end{itemize}
 \end{frame}
+%
+%\begin{frame}{Stellar-mass binary black holes}
+%\begin{itemize}
+%\item Simulating the dataset using PhenomD waveform model (S. Khan et al, 2016)
+%\item Observation time of $T_{obs} \sim 2.7$ yr
+%\item Doing the same process as CGBs
+%\end{itemize}
+%\end{frame}
 
-\begin{frame}{Stellar-mass binary black holes}
-\begin{itemize}
-\item Simulating the dataset using PhenomD waveform model (S. Khan et al, 2016)
-\item Observation time of $T_{obs} \sim 2.7$ yr
-\item Doing the same process as CGBs
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Stellar-mass binary black holes}
+\begin{frame}{2-Stellar-mass binary black holes}
 \begin{figure}
 \includegraphics[width=.8\textwidth]{fig/SMBHs.png}
 \caption*{\credit{Nikolaos Karnesis et al, 2021}}
@@ -361,7 +370,7 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \item Doing the same process again!
 \item Instead of iterating over one type, iterate over all types
 \item Comparing SNR of each type with itself
-\item Final result is just superposition of the foreground signals from all given types of sources
+\item The final result is just a superposition of the foreground signals from all given types of sources.
 \begin{block}{Superposition}
 \begin{equation*}
 \tilde{S}_n(f) = \tilde{S}_{instr}(f) +\sum_t \tilde{S}_{conf,t}(f)
@@ -372,8 +381,8 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 
 \begin{frame}{Combining the populations}
 \begin{figure}
-\includegraphics[width=.9\textwidth]{fig/combin.png}
-\caption*{\credit{Nikolaos Karnesis et al, 2021}}
+\includegraphics[width=.8\textwidth]{fig/combin.png}
+\caption*{\credit{Nikolaos Karnesis et al., 2021}}
 \end{figure}
 \end{frame}
 
@@ -381,11 +390,11 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \section{Conclusion}
 \begin{frame}{Conclusion}
 \begin{itemize}
-\item Simulation of CGBs and SBBHs population
-\item using an iterative process to estimate forground noise
-\item Fit a theoretical model to confusion noise of CGBs
-\item SBBHs signal is not strong enough to affect the final result
-\item Due to the presence of CGBs the most sensitive firequency of LISA is going to increase
+\item Simulation of CGBs and SBBHs population.
+\item Using an iterative process to estimate foreground noise.
+\item Fit a theoretical model to confusion noise of CGBs.
+\item[$\blacktriangleright$] SBBHs confusion noise is not strong enough to affect the final result.
+\item[$\blacktriangleright$] Due to the presence of CGBs the most sensitive frequency of LISA is going to increase.
 \end{itemize}
 \end{frame}
 
@@ -395,24 +404,24 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{center}
 \end{frame}
 
-\begin{frame}{PSD}
+\begin{frame}{Power Spectrum Density (PSD)}
 \begin{figure}
 \includegraphics[scale=.2]{fig/PSD-TOT.png}
-\caption*{\credit{C J Moore et al, 2014}}
+\caption*{\credit{C J Moore et al., 2014}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Characteristic strain}
 \begin{figure}
 \includegraphics[scale=.2]{fig/Char-TOT.png}
-\caption*{\credit{C J Moore et al, 2014}}
+\caption*{\credit{C J Moore et al., 2014}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Dimensionless energy density}
 \begin{figure}
 \includegraphics[scale=.2]{fig/Energy-TOT.png}
-\caption*{\credit{C J Moore et al, 2014}}
+\caption*{\credit{C J Moore et al., 2014}}
 \end{figure}
 \end{frame}
 
@@ -421,7 +430,7 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \column[c]{.5\textwidth}
 \begin{figure}
 \includegraphics[scale=.15]{fig/LISAschem.png}
-\caption*{\credit{Massimo Tinto et al, 2020}}
+\caption*{\credit{Massimo Tinto et al., 2020}}
 \end{figure}
 \column[c]{.5\textwidth}
 \begin{figure}
@@ -430,5 +439,28 @@ $a_1, b_1, a_k$ and $b_k$ are amplitude calibration parameters
 \end{figure}
 \end{columns}
 \end{frame}
+
+\begin{frame}{Time Delay Interferometery (TDI)}
+\begin{figure}
+\includegraphics[scale=.2]{fig/AET.png}
+\caption*{\credit{Massimo Tinto et al., 2020}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Time Delay Interferometery (TDI)}
+\begin{figure}
+\includegraphics[scale=.26]{fig/TDIeffect.png}
+\caption*{\credit{Antoine Petiteau et al., 2008}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{LIGO noise budget}
+\begin{figure}
+\includegraphics[scale=.7]{fig/LIGO sensitivity noise budget.jpg}
+\caption*{\credit{Rainer Weiss, 2018}}
+\end{figure}
+\end{frame}
+
+
 
 \end{document}

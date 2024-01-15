@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.12.26)  12 JAN 2024 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.12.26)  15 JAN 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,7 +651,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen276
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(./beamerthemeMedian.sty
+(./BeamerthemeMRT.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
@@ -1164,25 +1164,25 @@ your preamble.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./LISA.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 71
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 68.
+ut line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1191,7 +1191,7 @@ thkerncmss.
 <fig/GravWave.jpg, id=87, 903.375pt x 677.53125pt>
 File: fig/GravWave.jpg Graphic file (type jpg)
 <use fig/GravWave.jpg>
-Package pdftex.def Info: fig/GravWave.jpg  used on input line 68.
+Package pdftex.def Info: fig/GravWave.jpg  used on input line 71.
 (pdftex.def)             Requested size: 126.47163pt x 94.85371pt.
 
 [3
@@ -1199,59 +1199,59 @@ Package pdftex.def Info: fig/GravWave.jpg  used on input line 68.
  <./fig/GravWave.jpg>] [4
 
 ]
-<fig/HiResHanford_5.jpg, id=108, 216.81pt x 141.6492pt>
+<fig/HiResHanford_5.jpg, id=109, 216.81pt x 141.6492pt>
 File: fig/HiResHanford_5.jpg Graphic file (type jpg)
 <use fig/HiResHanford_5.jpg>
-Package pdftex.def Info: fig/HiResHanford_5.jpg  used on input line 156.
+Package pdftex.def Info: fig/HiResHanford_5.jpg  used on input line 159.
 (pdftex.def)             Requested size: 153.64493pt x 100.38574pt.
-<fig/IFO_SCHEME.png, id=109, 602.25pt x 338.76563pt>
+<fig/IFO_SCHEME.png, id=110, 602.25pt x 338.76563pt>
 File: fig/IFO_SCHEME.png Graphic file (type png)
 <use fig/IFO_SCHEME.png>
-Package pdftex.def Info: fig/IFO_SCHEME.png  used on input line 156.
+Package pdftex.def Info: fig/IFO_SCHEME.png  used on input line 159.
 (pdftex.def)             Requested size: 153.64493pt x 86.42285pt.
  [5
 
  <./fig/HiResHanford_5.jpg> <./fig/IFO_SCHEME.png>]
-<fig/noise-budget-ligo.png, id=115, 1118.1775pt x 822.07124pt>
+<fig/noise-budget-ligo.png, id=116, 1118.1775pt x 822.07124pt>
 File: fig/noise-budget-ligo.png Graphic file (type png)
 <use fig/noise-budget-ligo.png>
-Package pdftex.def Info: fig/noise-budget-ligo.png  used on input line 179.
+Package pdftex.def Info: fig/noise-budget-ligo.png  used on input line 182.
 (pdftex.def)             Requested size: 190.08766pt x 139.75026pt.
  [6
 
  <./fig/noise-budget-ligo.png>]
-<fig/GW150914.png, id=124, 1062.97125pt x 836.12375pt>
+<fig/GW150914.png, id=125, 1062.97125pt x 836.12375pt>
 File: fig/GW150914.png Graphic file (type png)
 <use fig/GW150914.png>
-Package pdftex.def Info: fig/GW150914.png  used on input line 186.
+Package pdftex.def Info: fig/GW150914.png  used on input line 189.
 (pdftex.def)             Requested size: 212.59048pt x 167.22179pt.
  [7
 
  <./fig/GW150914.png>]
-<fig/LISA.png, id=133, 983.675pt x 886.31125pt>
+<fig/LISA.png, id=134, 983.675pt x 886.31125pt>
 File: fig/LISA.png Graphic file (type png)
 <use fig/LISA.png>
-Package pdftex.def Info: fig/LISA.png  used on input line 206.
+Package pdftex.def Info: fig/LISA.png  used on input line 209.
 (pdftex.def)             Requested size: 147.54488pt x 132.94095pt.
-<fig/LISAsch.png, id=134, 1087.06125pt x 847.165pt>
+<fig/LISAsch.png, id=135, 1087.06125pt x 847.165pt>
 File: fig/LISAsch.png Graphic file (type png)
 <use fig/LISAsch.png>
-Package pdftex.def Info: fig/LISAsch.png  used on input line 206.
+Package pdftex.def Info: fig/LISAsch.png  used on input line 209.
 (pdftex.def)             Requested size: 130.44171pt x 101.65541pt.
  [8
 
  <./fig/LISA.png> <./fig/LISAsch.png>]
-<fig/observedLISA.png, id=142, 1156.32pt x 842.14626pt>
+<fig/observedLISA.png, id=143, 1156.32pt x 842.14626pt>
 File: fig/observedLISA.png Graphic file (type png)
 <use fig/observedLISA.png>
-Package pdftex.def Info: fig/observedLISA.png  used on input line 213.
+Package pdftex.def Info: fig/observedLISA.png  used on input line 216.
 (pdftex.def)             Requested size: 231.2599pt x 168.42627pt.
  [9
 
  <./fig/observedLISA.png>]
 File: fig/observedLISA.png Graphic file (type png)
 <use fig/observedLISA.png>
-Package pdftex.def Info: fig/observedLISA.png  used on input line 234.
+Package pdftex.def Info: fig/observedLISA.png  used on input line 237.
 (pdftex.def)             Requested size: 138.2795pt x 100.70624pt.
  [10
 
@@ -1266,106 +1266,122 @@ Package pdftex.def Info: fig/observedLISA.png  used on input line 234.
 
 ] [15
 
-] [16
-
 ]
-<fig/MainPSD.png, id=193, 1184.425pt x 816.04875pt>
+<fig/MainPSD.png, id=188, 1184.425pt x 816.04875pt>
 File: fig/MainPSD.png Graphic file (type png)
 <use fig/MainPSD.png>
-Package pdftex.def Info: fig/MainPSD.png  used on input line 292.
+Package pdftex.def Info: fig/MainPSD.png  used on input line 297.
 (pdftex.def)             Requested size: 260.57431pt x 179.53128pt.
- [17
+ [16
 
- <./fig/MainPSD.png>] [18
+ <./fig/MainPSD.png>] [17
 
 ]
-<fig/FittingPSD.png, id=207, 1077.02374pt x 822.07124pt>
+<fig/FittingPSD.png, id=201, 1077.02374pt x 822.07124pt>
 File: fig/FittingPSD.png Graphic file (type png)
 <use fig/FittingPSD.png>
-Package pdftex.def Info: fig/FittingPSD.png  used on input line 329.
+Package pdftex.def Info: fig/FittingPSD.png  used on input line 337.
 (pdftex.def)             Requested size: 153.64493pt x 117.2718pt.
-<fig/Table2.png, id=208, 1174.3875pt x 657.45625pt>
-File: fig/Table2.png Graphic file (type png)
-<use fig/Table2.png>
-Package pdftex.def Info: fig/Table2.png  used on input line 329.
-(pdftex.def)             Requested size: 153.64493pt x 86.01404pt.
-<fig/Table1.png, id=209, 1184.425pt x 556.0775pt>
+<fig/Table1.png, id=202, 1184.425pt x 556.0775pt>
 File: fig/Table1.png Graphic file (type png)
 <use fig/Table1.png>
-Package pdftex.def Info: fig/Table1.png  used on input line 329.
+Package pdftex.def Info: fig/Table1.png  used on input line 337.
 (pdftex.def)             Requested size: 153.64493pt x 72.1314pt.
- [19
+ [18
 
- <./fig/FittingPSD.png> <./fig/Table2.png> <./fig/Table1.png>] [20
-
-] [21
+ <./fig/FittingPSD.png> <./fig/Table1.png>] [19
 
 ]
-<fig/SMBHs.png, id=232, 1141.26375pt x 820.06375pt>
+<fig/SMBHs.png, id=217, 1141.26375pt x 820.06375pt>
 File: fig/SMBHs.png Graphic file (type png)
 <use fig/SMBHs.png>
-Package pdftex.def Info: fig/SMBHs.png  used on input line 355.
+Package pdftex.def Info: fig/SMBHs.png  used on input line 364.
 (pdftex.def)             Requested size: 245.83282pt x 176.6356pt.
- [22
+ [20
 
- <./fig/SMBHs.png>] [23
+ <./fig/SMBHs.png>] [21
 
 ]
-<fig/combin.png, id=245, 1565.85pt x 655.44875pt>
+<fig/combin.png, id=230, 970.62625pt x 660.4675pt>
 File: fig/combin.png Graphic file (type png)
 <use fig/combin.png>
-Package pdftex.def Info: fig/combin.png  used on input line 378.
-(pdftex.def)             Requested size: 276.559pt x 115.75539pt.
- [24
+Package pdftex.def Info: fig/combin.png  used on input line 387.
+(pdftex.def)             Requested size: 245.83282pt x 167.27313pt.
+ [22
 
- <./fig/Combin.png>] [25
+ <./fig/Combin.png>] [23
 
-] [26
+] [24
 
 ]
-<fig/PSD-TOT.png, id=265, 1019.81pt x 648.4225pt>
+<fig/PSD-TOT.png, id=249, 1019.81pt x 648.4225pt>
 File: fig/PSD-TOT.png Graphic file (type png)
 <use fig/PSD-TOT.png>
-Package pdftex.def Info: fig/PSD-TOT.png  used on input line 403.
+Package pdftex.def Info: fig/PSD-TOT.png  used on input line 412.
 (pdftex.def)             Requested size: 203.95839pt x 129.68219pt.
- [27
+
+[25
 
  <./fig/PSD-TOT.png>]
-<fig/Char-TOT.png, id=273, 1024.82875pt x 656.4525pt>
+<fig/Char-TOT.png, id=258, 1024.82875pt x 656.4525pt>
 File: fig/Char-TOT.png Graphic file (type png)
 <use fig/Char-TOT.png>
-Package pdftex.def Info: fig/Char-TOT.png  used on input line 410.
+Package pdftex.def Info: fig/Char-TOT.png  used on input line 419.
 (pdftex.def)             Requested size: 204.96211pt x 131.28816pt.
- [28
+ [26
 
  <./fig/Char-TOT.png>]
-<fig/Energy-TOT.png, id=281, 1030.85126pt x 647.41875pt>
+<fig/Energy-TOT.png, id=266, 1030.85126pt x 647.41875pt>
 File: fig/Energy-TOT.png Graphic file (type png)
 <use fig/Energy-TOT.png>
-Package pdftex.def Info: fig/Energy-TOT.png  used on input line 417.
+Package pdftex.def Info: fig/Energy-TOT.png  used on input line 426.
 (pdftex.def)             Requested size: 206.1666pt x 129.48145pt.
-
-[29
+ [27
 
  <./fig/Energy-TOT.png>]
-<fig/LISAschem.png, id=289, 1086.0575pt x 989.6975pt>
+<fig/LISAschem.png, id=274, 1086.0575pt x 989.6975pt>
 File: fig/LISAschem.png Graphic file (type png)
 <use fig/LISAschem.png>
-Package pdftex.def Info: fig/LISAschem.png  used on input line 432.
+Package pdftex.def Info: fig/LISAschem.png  used on input line 441.
 (pdftex.def)             Requested size: 162.9016pt x 148.44821pt.
 
-Overfull \hbox (9.25667pt too wide) in paragraph at lines 432--432
+Overfull \hbox (9.25667pt too wide) in paragraph at lines 441--441
  [] 
  []
 
-<fig/Distance.png, id=290, 1016.79875pt x 544.0325pt>
+<fig/Distance.png, id=275, 1016.79875pt x 544.0325pt>
 File: fig/Distance.png Graphic file (type png)
 <use fig/Distance.png>
-Package pdftex.def Info: fig/Distance.png  used on input line 432.
+Package pdftex.def Info: fig/Distance.png  used on input line 441.
 (pdftex.def)             Requested size: 152.51323pt x 81.60135pt.
-[30
+[28
 
  <./fig/LISAschem.png> <./fig/Distance.png>]
+<fig/AET.png, id=284, 1086.0575pt x 891.33pt>
+File: fig/AET.png Graphic file (type png)
+<use fig/AET.png>
+Package pdftex.def Info: fig/AET.png  used on input line 448.
+(pdftex.def)             Requested size: 217.20764pt x 178.26283pt.
+ [29
+
+ <./fig/AET.png>]
+<fig/TDIeffect.png, id=292, 663.47874pt x 633.36626pt>
+File: fig/TDIeffect.png Graphic file (type png)
+<use fig/TDIeffect.png>
+Package pdftex.def Info: fig/TDIeffect.png  used on input line 455.
+(pdftex.def)             Requested size: 172.5004pt x 164.67134pt.
+ [30
+
+ <./fig/TDIeffect.png>]
+<fig/LIGO sensitivity noise budget.jpg, id=300, 220.64734pt x 228.32204pt>
+File: fig/LIGO sensitivity noise budget.jpg Graphic file (type jpg)
+<use fig/LIGO sensitivity noise budget.jpg>
+Package pdftex.def Info: fig/LIGO sensitivity noise budget.jpg  used on input l
+ine 462.
+(pdftex.def)             Requested size: 154.45207pt x 159.82433pt.
+ [31
+
+ <./fig/LIGO sensitivity noise budget.jpg>]
 \tf@nav=\write6
 \openout6 = `LISA.nav'.
 
@@ -1375,44 +1391,39 @@ Package pdftex.def Info: fig/Distance.png  used on input line 432.
 \tf@snm=\write8
 \openout8 = `LISA.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
  (./LISA.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
 Package rerunfilecheck Info: File `LISA.out' has not changed.
-(rerunfilecheck)             Checksum: 5E43A7B2AF36D1E41BABCC85B431FF7B;712.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 5D43DF631019390AE2016DDD64633235;721.
  ) 
 Here is how much of TeX's memory you used:
- 33816 strings out of 481239
- 802769 string characters out of 5920376
- 1818015 words of memory out of 5000000
- 48308 multiletter control sequences out of 15000+600000
- 542910 words of font info for 63 fonts, out of 8000000 for 9000
+ 33789 strings out of 481239
+ 802216 string characters out of 5920376
+ 1818333 words of memory out of 5000000
+ 48278 multiletter control sequences out of 15000+600000
+ 542310 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,19n,106p,1029b,2535s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,106p,1026b,2535s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on LISA.pdf (30 pages, 4871104 bytes).
+fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on LISA.pdf (31 pages, 5030530 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
